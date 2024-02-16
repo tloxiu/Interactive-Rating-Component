@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Link
 
-- Live Site URL: [https://your-live-site-url.com](https://interactive-rating-component-omega-amber.vercel.app]
+- - Live Site URL: [https://interactive-rating-component-omega-amber.vercel.app]
 
 
 ## Built with
