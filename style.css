@@ -94,7 +94,7 @@ h1, p, button{
 main{
   background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%));
   border-radius: 15px;
-  width: 327px;
+  max-width: 327px;
   min-height: 360px;
 }
 
@@ -259,7 +259,7 @@ button:hover{
 /* DESKTOP MEDIA QUERIES */
 @media screen and (min-width:1440px){
   main{
-    width: 412px;
+    max-width: 412px;
     min-height: 416px;
     border-radius: 30px;
   }
