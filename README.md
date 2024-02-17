@@ -27,6 +27,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- CSS Grid
 - Javascript
 - Flexbox
 - Mobile-first workflow
