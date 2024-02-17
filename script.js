@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-const circles = document.querySelectorAll(".div-circle");
+const circles = document.querySelectorAll(".circle");
 const ratingScreen = document.getElementById("rating-state-start");
 const thankYouScreen = document.getElementById("rating-state-end");
 const submitButton = document.querySelector(".submit-btn");
@@ -16,15 +16,11 @@ function highlightSelectedRating(selectedElement){
 };
 
 
-
-
 circles.forEach((item) => {
     item.addEventListener("click", (event) => {
-        const selectedValue = event.currentTarget.querySelector(".numbers").textContent;
-        selectedRating = selectedValue;
+        selectedRating = event.currentTarget.querySelector("input").value;
         highlightSelectedRating(event.currentTarget);
         event.currentTarget.style.backgroundColor = "var(--orange)";
-        console.log(selectedRating);
     });
 });
 
