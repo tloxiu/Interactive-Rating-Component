@@ -18,44 +18,52 @@
       <div id="rating-state-start" class="show">
         <div class="container">
           <div class="star-circle">
-            <img class="img-start" src="assets/icon-star.svg" alt="An icon of the star">
+            <img class="img-start" src="assets/icon-star.svg" alt="">
           </div>
         </div>    
         <h1 class="title-start">How did we do?</h1>
         <p class="description-start"> Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-        <div class="ratings">
-          <div class="div-circle">
-            <div class="numbers"><p class="numbers">1</p></div>
-          </div>
-          <div class="div-circle">
-            <div class="numbers"><p class="numbers">2</p></div>
-          </div>
-          <div class="div-circle">
-            <div class="numbers"><p class="numbers">3</p></div>
-          </div>
-          <div class="div-circle">
-            <div class="numbers"><p class="numbers">4</p></div>
-          </div>
-          <div class="div-circle">
-            <div class="numbers"><p class="numbers">5</p></div>
-          </div>
-        </div>
-        <div class="centered-btn">
+
+        <form class="ratings">
+          <label for="rating-1" class="circle" >
+            <input type="radio" name="rating" id="rating-1" value="1">    
+            1       
+          </label>         
+          <label for="rating-2" class="circle">
+            <input type="radio" name="rating" id="rating-2" value="2">
+            2
+          </label>
+          <label for="rating-3" class="circle">
+            <input type="radio" name="rating" id="rating-3" value="3">
+            3
+          </label>
+          <label for="rating-4" class="circle">
+            <input type="radio" name="rating" id="rating-4" value="4">
+            4
+          </label>
+          <label for="rating-5" class="circle">
+            <input type="radio" name="rating" id="rating-5" value="5">
+            5
+          </label>
+        </form>
+
+        <div class="centered-submit-btn">
           <button class="submit-btn">Submit</button>
         </div>
       </div>
 
       <div id="rating-state-end" class="hide">
-        <img class="img-end" src="assets/illustration-thank-you.svg" alt="Illustration thank you">
+        <img class="img-end" src="assets/illustration-thank-you.svg" alt="">
         <div class="centered-texts">
           <p class="ribbon-text-end"><span id="final-number"></span></p>
           <h1 class="title-end">Thank you!</h1>
           <p class="description-end">We appreciate you taking the time to give a rating. If you ever need more support,  don’t hesitate to get in touch!</p>
         </div>
       </div>
-    </main>
-  </div>
 
+    </main>
+    
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
