@@ -34,7 +34,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [tloxiu](https://www.your-site.com)
-- Frontend Mentor - [@tloxiu](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@tloxiu](https://www.frontendmentor.io/profile/tloxiu)
 
 
